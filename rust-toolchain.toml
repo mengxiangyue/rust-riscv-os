@@ -1,0 +1,6 @@
+[toolchain]
+channel = "nightly-2021-11-03"
+# channel = "nightly-2021-11-03-aarch64-apple-darwin"
+components = [ "llvm-tools-preview" ]
+targets = [ "riscv64gc-unknown-none-elf" ]
+profile = "minimal"
